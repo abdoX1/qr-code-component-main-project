@@ -1,0 +1,42 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Cairo", sans-serif;
+}
+.container {
+  width: 280px;
+  text-align: center;
+  background-color: white;
+  padding: 15px 15px 25px 15px;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 9px 13px 0px #aaa;
+}
+.the-qr-code-image {
+  overflow: hidden;
+}
+.the-qr-code-image img {
+  width: 100%;
+  border-radius: 15px;
+}
+.the-title {
+  font-weight: bolder;
+  color: hsl(218, 44%, 22%);
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+.para {
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(216, 15%, 48%);
+}
+.attribution {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.attribution a {
+  text-decoration: none;
+}
